@@ -1,0 +1,21 @@
+# Ignore .git and .cache folders
+.git
+.cache
+
+# Ignore all *.class files in all folders, including build root
+**/*.class
+
+# Ignore build and editor files
+.idea/
+.vscode/
+bin/
+.classpath
+.project
+*.eclipse.*
+.settings/
+
+# Ignore target
+target/**
+
+# INCLUDE artifact jars
+!target/*.jar
